@@ -1,0 +1,8 @@
+Lịch sử mua hàng = OrderList
+  - Làm 1 table với 4 tab: Tất cả, Đang chờ, Đang giao, Đã giao
+
+Sản phẩm yêu thích
+  - Làm 1 table cho phep user unlike sản phẩm
+
+Ràng buộc khi user like hay thêm giỏ hàng đều yêu cầu đăng Nhập
+  - Xàm v để khỏi phải xử lý cart FE rườm rà

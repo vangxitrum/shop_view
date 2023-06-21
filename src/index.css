@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .banner {
+    @apply before:tw-absolute before:tw-content-[''] before:tw-w-full before:tw-h-full before:tw-bg-banner before:tw-top-0 before:tw-left-0 before:tw-duration-300 before:tw-opacity-0 before:tw-pointer-events-none hover:before:tw-opacity-100;
+  }
+
+  .product-action {
+    @apply tw-h-[41px] tw-leading-[41px] tw-w-[50px] tw-text-center tw-bg-white tw-text-tertiary tw-text-[15px] tw-relative tw-block tw-transition-all tw-divide-red-300 before:tw-absolute tw-content-[''] before:tw-bg-[#ddd] before:tw-h-[1px] before:tw-w-[25px] before:tw-bottom-0 before:tw-left-[13px];
+  }
+
+  .product-image {
+    @apply tw-block xl:!tw-w-[228px] xl:!tw-h-[268px] 2xl:!tw-w-[304px] 2xl:!tw-h-[358px] !tw-object-cover;
+  }
+
+  .custom-menu {
+  }
+
+  .custom-menu .ant-menu-item-selected {
+    @apply tw-text-primary;
+  }
+}
+
+body {
+  line-height: 24px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  visibility: visible;
+  font-family: 'Libre Franklin', sans-serif !important;
+  color: #747474;
+}
+
+.fit-height-tabs .ant-tabs-content {
+  height: 100% !important;
+}
+
+.fit-height-tabs .ant-tabs-content .ant-tabs-tabpane {
+  height: 100% !important;
+}
+
+.fit-height-tabs .ant-tabs-nav-list .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ff6a28 !important;
+}
+
+.fit-height-tabs .ant-tabs-nav-list .ant-tabs-ink-bar {
+  background: #ff6a28 !important;
+}
+
+.fit-height-tabs .ant-tabs-nav-list .ant-tabs-tab:hover {
+  color: #ff6a28 !important;
+}
